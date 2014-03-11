@@ -26,6 +26,7 @@ CLLocationCoordinate2D currentLocation;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //Intialize Audio Player
     AVAudioPlayer *pp1 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"batmobile" ofType:@"wav"]] error:nil];
     self.playerBG = pp1;
     [pp1 prepareToPlay];
@@ -34,6 +35,7 @@ CLLocationCoordinate2D currentLocation;
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
+    //Zoom map to user location and set currentLocation variable for later use
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 800, 800);
     currentLocation=userLocation.coordinate;
     [self.mapView setRegion:[self.mapView regionThatFits:region] animated:YES];
@@ -77,7 +79,8 @@ CLLocationCoordinate2D currentLocation;
 
 - (IBAction)parkedButtonPressed:(UIBarButtonItem *)sender {
         for (int i =0; i < [mapView.annotations count]; i++) {
-            if ([[mapView.annotations objectAtIndex:i] isKindOfClass:[MKPointAnnotation class]]) {
+            if ([[mapView.annotations objectAtIndex:i] isKindOfClass:[MKPointAnnotation class]])
+                {
                 [mapView removeAnnotation:[mapView.annotations objectAtIndex:i]];
             }
         }
@@ -91,6 +94,15 @@ CLLocationCoordinate2D currentLocation;
 
 - (IBAction)routeButtonPressed:(UIBarButtonItem *)sender {
     [self.playerBG play];
+    for (int i =0; i < [mapView.annotations count]; i++) {
+        if ([[mapView.annotations objectAtIndex:i] isKindOfClass:[MKPointAnnotation class]])
+        {
+            if(![[[mapView.annotations objectAtIndex:i] title] isEqualToString:@"I parked here!"])
+            {
+                [mapView removeAnnotation:[mapView.annotations objectAtIndex:i]];
+            }
+        }
+    }
     if (routeRemoveId != (id)[NSNull null])
     {
         [self.mapView removeOverlay:routeRemoveId];
