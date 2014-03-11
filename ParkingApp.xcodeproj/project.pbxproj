@@ -25,7 +25,6 @@
 		C61E32D618CD3B9900094E9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32D518CD3B9900094E9E /* MapKit.framework */; };
 		C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E7E18CF76A700580AD3 /* batmobile.wav */; };
 		C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E8418CF7DA300580AD3 /* batmobile.png */; };
-		C699FFB518CF68B300A6E2AC /* batmobile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C699FFB418CF68B300A6E2AC /* batmobile.jpg */; };
 		C699FFB718CF6CF400A6E2AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +62,6 @@
 		C61E32D518CD3B9900094E9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C63D6E7E18CF76A700580AD3 /* batmobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = batmobile.wav; path = ../../batmobile.wav; sourceTree = "<group>"; };
 		C63D6E8418CF7DA300580AD3 /* batmobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batmobile.png; sourceTree = "<group>"; };
-		C699FFB418CF68B300A6E2AC /* batmobile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batmobile.jpg; sourceTree = "<group>"; };
 		C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -146,7 +144,6 @@
 			children = (
 				C63D6E8418CF7DA300580AD3 /* batmobile.png */,
 				C63D6E7E18CF76A700580AD3 /* batmobile.wav */,
-				C699FFB418CF68B300A6E2AC /* batmobile.jpg */,
 				C61E32A618CD389300094E9E /* ParkingApp-Info.plist */,
 				C61E32A718CD389300094E9E /* InfoPlist.strings */,
 				C61E32AA18CD389300094E9E /* main.m */,
@@ -251,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61E32B718CD389300094E9E /* Images.xcassets in Resources */,
-				C699FFB518CF68B300A6E2AC /* batmobile.jpg in Resources */,
 				C61E32A918CD389300094E9E /* InfoPlist.strings in Resources */,
 				C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */,
 				C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */,
