@@ -21,6 +21,12 @@
 		C61E32C018CD389300094E9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32A218CD389300094E9E /* UIKit.framework */; };
 		C61E32C818CD389300094E9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C61E32C618CD389300094E9E /* InfoPlist.strings */; };
 		C61E32CA18CD389300094E9E /* ParkingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61E32C918CD389300094E9E /* ParkingAppTests.m */; };
+		C61E32D418CD3B9300094E9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32D318CD3B9300094E9E /* CoreLocation.framework */; };
+		C61E32D618CD3B9900094E9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32D518CD3B9900094E9E /* MapKit.framework */; };
+		C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E7E18CF76A700580AD3 /* batmobile.wav */; };
+		C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E8418CF7DA300580AD3 /* batmobile.png */; };
+		C699FFB518CF68B300A6E2AC /* batmobile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C699FFB418CF68B300A6E2AC /* batmobile.jpg */; };
+		C699FFB718CF6CF400A6E2AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		C61E32C518CD389300094E9E /* ParkingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkingAppTests-Info.plist"; sourceTree = "<group>"; };
 		C61E32C718CD389300094E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C61E32C918CD389300094E9E /* ParkingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingAppTests.m; sourceTree = "<group>"; };
+		C61E32D318CD3B9300094E9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C61E32D518CD3B9900094E9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C63D6E7E18CF76A700580AD3 /* batmobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = batmobile.wav; path = ../../batmobile.wav; sourceTree = "<group>"; };
+		C63D6E8418CF7DA300580AD3 /* batmobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batmobile.png; sourceTree = "<group>"; };
+		C699FFB418CF68B300A6E2AC /* batmobile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batmobile.jpg; sourceTree = "<group>"; };
+		C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C699FFB718CF6CF400A6E2AC /* AVFoundation.framework in Frameworks */,
+				C61E32D618CD3B9900094E9E /* MapKit.framework in Frameworks */,
+				C61E32D418CD3B9300094E9E /* CoreLocation.framework in Frameworks */,
 				C61E32A118CD389300094E9E /* CoreGraphics.framework in Frameworks */,
 				C61E32A318CD389300094E9E /* UIKit.framework in Frameworks */,
 				C61E329F18CD389300094E9E /* Foundation.framework in Frameworks */,
@@ -101,6 +116,9 @@
 		C61E329D18CD389300094E9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */,
+				C61E32D518CD3B9900094E9E /* MapKit.framework */,
+				C61E32D318CD3B9300094E9E /* CoreLocation.framework */,
 				C61E329E18CD389300094E9E /* Foundation.framework */,
 				C61E32A018CD389300094E9E /* CoreGraphics.framework */,
 				C61E32A218CD389300094E9E /* UIKit.framework */,
@@ -126,6 +144,9 @@
 		C61E32A518CD389300094E9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C63D6E8418CF7DA300580AD3 /* batmobile.png */,
+				C63D6E7E18CF76A700580AD3 /* batmobile.wav */,
+				C699FFB418CF68B300A6E2AC /* batmobile.jpg */,
 				C61E32A618CD389300094E9E /* ParkingApp-Info.plist */,
 				C61E32A718CD389300094E9E /* InfoPlist.strings */,
 				C61E32AA18CD389300094E9E /* main.m */,
@@ -197,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ParkingApp;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Erin McGee";
 				TargetAttributes = {
 					C61E32BB18CD389300094E9E = {
@@ -230,7 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61E32B718CD389300094E9E /* Images.xcassets in Resources */,
+				C699FFB518CF68B300A6E2AC /* batmobile.jpg in Resources */,
 				C61E32A918CD389300094E9E /* InfoPlist.strings in Resources */,
+				C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */,
+				C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */,
 				C61E32B218CD389300094E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +330,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +368,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -403,7 +425,6 @@
 		C61E32D118CD389400094E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParkingApp.app/ParkingApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +447,6 @@
 		C61E32D218CD389400094E9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParkingApp.app/ParkingApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +481,7 @@
 				C61E32CF18CD389400094E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C61E32D018CD389400094E9E /* Build configuration list for PBXNativeTarget "ParkingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +490,7 @@
 				C61E32D218CD389400094E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
