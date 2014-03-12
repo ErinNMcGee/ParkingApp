@@ -58,9 +58,14 @@
                                 <action selector="routeButtonPressed:" destination="vXZ-lx-hvc" id="bQL-RY-47k"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem title="I parked here?" id="0bp-CF-KnR">
+                        <barButtonItem title="I parked here" id="0bp-CF-KnR">
                             <connections>
                                 <action selector="parkedButtonPressed:" destination="vXZ-lx-hvc" id="NTi-rI-QjV"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Clear" id="jbF-vZ-0Me">
+                            <connections>
+                                <action selector="clearRoute:" destination="vXZ-lx-hvc" id="1il-e3-aHE"/>
                             </connections>
                         </barButtonItem>
                     </toolbarItems>

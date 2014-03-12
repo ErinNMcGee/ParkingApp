@@ -132,8 +132,8 @@
 				C61E32AE18CD389300094E9E /* ParkingAppAppDelegate.m */,
 				C61E32B018CD389300094E9E /* Main.storyboard */,
 				C61E32B318CD389300094E9E /* ParkingAppViewController.h */,
-				C61E32B418CD389300094E9E /* ParkingAppViewController.m */,
 				C61E32B618CD389300094E9E /* Images.xcassets */,
+				C61E32B418CD389300094E9E /* ParkingAppViewController.m */,
 				C61E32A518CD389300094E9E /* Supporting Files */,
 			);
 			path = ParkingApp;

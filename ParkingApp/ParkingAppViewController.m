@@ -142,6 +142,19 @@ CLLocationCoordinate2D currentLocation;
     }];
 
 }
+- (IBAction)clearRoute:(id)sender {
+    
+    for (int i =0; i < [mapView.annotations count]; i++) {
+        if ([[mapView.annotations objectAtIndex:i] isKindOfClass:[MKPointAnnotation class]])
+        {
+                [mapView removeAnnotation:[mapView.annotations objectAtIndex:i]];
+        }
+    }
+    if (routeRemoveId != (id)[NSNull null])
+    {
+        [self.mapView removeOverlay:routeRemoveId];
+    }
+}
 
 - (void)showDirections:(MKDirectionsResponse *)response
 {
