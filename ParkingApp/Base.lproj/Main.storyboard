@@ -27,8 +27,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance from Car:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LV-qe-k0Q">
-                                <rect key="frame" x="10" y="285" width="144" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance to Car:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LV-qe-k0Q">
+                                <rect key="frame" x="10" y="285" width="124" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -58,7 +58,7 @@
                                 <action selector="routeButtonPressed:" destination="vXZ-lx-hvc" id="bQL-RY-47k"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem title="I parked here" id="0bp-CF-KnR">
+                        <barButtonItem title="I Parked Here" id="0bp-CF-KnR">
                             <connections>
                                 <action selector="parkedButtonPressed:" destination="vXZ-lx-hvc" id="NTi-rI-QjV"/>
                             </connections>

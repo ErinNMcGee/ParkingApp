@@ -89,6 +89,8 @@ CLLocationCoordinate2D currentLocation;
         point.coordinate = currentLocation;
         point.title = @"I parked here!";
         parkingSpot=point.coordinate;
+    self.steps.text=@"";
+    self.distanceLabel.text=@"";
         [self.mapView addAnnotation:point];
 }
 
@@ -154,6 +156,9 @@ CLLocationCoordinate2D currentLocation;
     {
         [self.mapView removeOverlay:routeRemoveId];
     }
+    self.steps.text=@"";
+    self.distanceLabel.text=@"";
+    
 }
 
 - (void)showDirections:(MKDirectionsResponse *)response
