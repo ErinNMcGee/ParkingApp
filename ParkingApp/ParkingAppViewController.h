@@ -13,6 +13,8 @@
 
 @interface ParkingAppViewController : UIViewController <MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *distanceTextLabel;
+@property (weak, nonatomic) IBOutlet UILabel *directionsTextLabel;
 @property (nonatomic, strong) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UITextView *steps;
 @property (strong, nonatomic) AVAudioPlayer *playerBG;

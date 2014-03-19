@@ -30,6 +30,10 @@ CLLocationCoordinate2D currentLocation;
     AVAudioPlayer *pp1 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"batmobile" ofType:@"wav"]] error:nil];
     self.playerBG = pp1;
     [pp1 prepareToPlay];
+    [self.distanceTextLabel setHidden:YES];
+    [self.directionsTextLabel setHidden:YES];
+    self.steps.text=@"";
+    self.distanceLabel.text=@"";
     self.mapView.delegate = self;
 }
 
@@ -89,6 +93,8 @@ CLLocationCoordinate2D currentLocation;
         point.coordinate = currentLocation;
         point.title = @"I parked here!";
         parkingSpot=point.coordinate;
+    [self.distanceTextLabel setHidden:YES];
+    [self.directionsTextLabel setHidden:YES];
     self.steps.text=@"";
     self.distanceLabel.text=@"";
         [self.mapView addAnnotation:point];
@@ -139,6 +145,8 @@ CLLocationCoordinate2D currentLocation;
                 self.allSteps = [self.allSteps stringByAppendingString:@"\n\n"];
             }
             self.steps.text = self.allSteps;
+            [self.distanceTextLabel setHidden:NO];
+            [self.directionsTextLabel setHidden:NO];
             [self showDirections:response]; //response is provided by the CompletionHandler
         }
     }];
@@ -156,6 +164,8 @@ CLLocationCoordinate2D currentLocation;
     {
         [self.mapView removeOverlay:routeRemoveId];
     }
+    [self.distanceTextLabel setHidden:YES];
+    [self.directionsTextLabel setHidden:YES];
     self.steps.text=@"";
     self.distanceLabel.text=@"";
     

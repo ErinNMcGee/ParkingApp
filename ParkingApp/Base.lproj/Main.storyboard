@@ -71,7 +71,9 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Where Did I Park?" id="iLi-5c-JkP"/>
                     <connections>
+                        <outlet property="directionsTextLabel" destination="an8-me-bnU" id="1B1-0M-q0h"/>
                         <outlet property="distanceLabel" destination="418-v1-Eve" id="Utq-OS-YUa"/>
+                        <outlet property="distanceTextLabel" destination="3LV-qe-k0Q" id="xw8-Bc-BMG"/>
                         <outlet property="mapView" destination="Pxc-u4-l5t" id="69s-nU-w7i"/>
                         <outlet property="steps" destination="zis-uG-FAj" id="tJC-Kt-BsY"/>
                     </connections>
