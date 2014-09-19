@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *distanceTextLabel;
 @property (weak, nonatomic) IBOutlet UILabel *directionsTextLabel;
 @property (nonatomic, strong) IBOutlet MKMapView *mapView;
+@property(nonatomic, retain) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet UITextView *steps;
 @property (strong, nonatomic) AVAudioPlayer *playerBG;
 @property (strong, nonatomic) NSString *allSteps;

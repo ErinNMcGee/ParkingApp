@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C61E329A18CD389300094E9E"
-               BuildableName = "ParkingApp.app"
-               BlueprintName = "ParkingApp"
-               ReferencedContainer = "container:ParkingApp.xcodeproj">
+               BuildableName = "Where&apos;s The Batmobile?.app"
+               BlueprintName = "Where&apos;s The Batmobile?"
+               ReferencedContainer = "container:Where&apos;s The Batmobile?.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C61E32BB18CD389300094E9E"
-               BuildableName = "ParkingAppTests.xctest"
-               BlueprintName = "ParkingAppTests"
-               ReferencedContainer = "container:ParkingApp.xcodeproj">
+               BuildableName = "Where&apos;s The Batmobile?Tests.xctest"
+               BlueprintName = "Where&apos;s The Batmobile?Tests"
+               ReferencedContainer = "container:Where&apos;s The Batmobile?.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C61E329A18CD389300094E9E"
-            BuildableName = "ParkingApp.app"
-            BlueprintName = "ParkingApp"
-            ReferencedContainer = "container:ParkingApp.xcodeproj">
+            BuildableName = "Where&apos;s The Batmobile?.app"
+            BlueprintName = "Where&apos;s The Batmobile?"
+            ReferencedContainer = "container:Where&apos;s The Batmobile?.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C61E329A18CD389300094E9E"
-            BuildableName = "ParkingApp.app"
-            BlueprintName = "ParkingApp"
-            ReferencedContainer = "container:ParkingApp.xcodeproj">
+            BuildableName = "Where&apos;s The Batmobile?.app"
+            BlueprintName = "Where&apos;s The Batmobile?"
+            ReferencedContainer = "container:Where&apos;s The Batmobile?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C61E329A18CD389300094E9E"
-            BuildableName = "ParkingApp.app"
-            BlueprintName = "ParkingApp"
-            ReferencedContainer = "container:ParkingApp.xcodeproj">
+            BuildableName = "Where&apos;s The Batmobile?.app"
+            BlueprintName = "Where&apos;s The Batmobile?"
+            ReferencedContainer = "container:Where&apos;s The Batmobile?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

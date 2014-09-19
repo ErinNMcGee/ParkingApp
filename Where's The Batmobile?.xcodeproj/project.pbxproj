@@ -23,9 +23,9 @@
 		C61E32CA18CD389300094E9E /* ParkingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61E32C918CD389300094E9E /* ParkingAppTests.m */; };
 		C61E32D418CD3B9300094E9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32D318CD3B9300094E9E /* CoreLocation.framework */; };
 		C61E32D618CD3B9900094E9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E32D518CD3B9900094E9E /* MapKit.framework */; };
-		C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E7E18CF76A700580AD3 /* batmobile.wav */; };
 		C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D6E8418CF7DA300580AD3 /* batmobile.png */; };
 		C699FFB718CF6CF400A6E2AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */; };
+		C6A50AB019770A7500A9B59B /* batmobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6A50AAF19770A7500A9B59B /* batmobile.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,30 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C61E329B18CD389300094E9E /* ParkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E329B18CD389300094E9E /* Where's The Batmobile?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's The Batmobile?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61E329E18CD389300094E9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C61E32A018CD389300094E9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C61E32A218CD389300094E9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C61E32A618CD389300094E9E /* ParkingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkingApp-Info.plist"; sourceTree = "<group>"; };
+		C61E32A618CD389300094E9E /* Where's The Batmobile?-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Where's The Batmobile?-Info.plist"; sourceTree = "<group>"; };
 		C61E32A818CD389300094E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C61E32AA18CD389300094E9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C61E32AC18CD389300094E9E /* ParkingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkingApp-Prefix.pch"; sourceTree = "<group>"; };
 		C61E32AD18CD389300094E9E /* ParkingAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingAppAppDelegate.h; sourceTree = "<group>"; };
 		C61E32AE18CD389300094E9E /* ParkingAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingAppAppDelegate.m; sourceTree = "<group>"; };
 		C61E32B118CD389300094E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C61E32B318CD389300094E9E /* ParkingAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingAppViewController.h; sourceTree = "<group>"; };
 		C61E32B418CD389300094E9E /* ParkingAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingAppViewController.m; sourceTree = "<group>"; };
 		C61E32B618CD389300094E9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C61E32BC18CD389300094E9E /* ParkingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E32BC18CD389300094E9E /* Where's The Batmobile?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where's The Batmobile?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61E32BD18CD389300094E9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C61E32C518CD389300094E9E /* ParkingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkingAppTests-Info.plist"; sourceTree = "<group>"; };
+		C61E32C518CD389300094E9E /* Where's The Batmobile?Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Where's The Batmobile?Tests-Info.plist"; sourceTree = "<group>"; };
 		C61E32C718CD389300094E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C61E32C918CD389300094E9E /* ParkingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingAppTests.m; sourceTree = "<group>"; };
 		C61E32D318CD3B9300094E9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C61E32D518CD3B9900094E9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C63D6E7E18CF76A700580AD3 /* batmobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = batmobile.wav; path = ../../batmobile.wav; sourceTree = "<group>"; };
 		C63D6E8418CF7DA300580AD3 /* batmobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batmobile.png; sourceTree = "<group>"; };
 		C699FFB618CF6CF400A6E2AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6A50AAF19770A7500A9B59B /* batmobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = batmobile.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +104,8 @@
 		C61E329C18CD389300094E9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C61E329B18CD389300094E9E /* ParkingApp.app */,
-				C61E32BC18CD389300094E9E /* ParkingAppTests.xctest */,
+				C61E329B18CD389300094E9E /* Where's The Batmobile?.app */,
+				C61E32BC18CD389300094E9E /* Where's The Batmobile?Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,12 +141,11 @@
 		C61E32A518CD389300094E9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6A50AAF19770A7500A9B59B /* batmobile.wav */,
 				C63D6E8418CF7DA300580AD3 /* batmobile.png */,
-				C63D6E7E18CF76A700580AD3 /* batmobile.wav */,
-				C61E32A618CD389300094E9E /* ParkingApp-Info.plist */,
+				C61E32A618CD389300094E9E /* Where's The Batmobile?-Info.plist */,
 				C61E32A718CD389300094E9E /* InfoPlist.strings */,
 				C61E32AA18CD389300094E9E /* main.m */,
-				C61E32AC18CD389300094E9E /* ParkingApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,7 +162,7 @@
 		C61E32C418CD389300094E9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C61E32C518CD389300094E9E /* ParkingAppTests-Info.plist */,
+				C61E32C518CD389300094E9E /* Where's The Batmobile?Tests-Info.plist */,
 				C61E32C618CD389300094E9E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -173,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C61E329A18CD389300094E9E /* ParkingApp */ = {
+		C61E329A18CD389300094E9E /* Where's The Batmobile? */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C61E32CD18CD389400094E9E /* Build configuration list for PBXNativeTarget "ParkingApp" */;
+			buildConfigurationList = C61E32CD18CD389400094E9E /* Build configuration list for PBXNativeTarget "Where's The Batmobile?" */;
 			buildPhases = (
 				C61E329718CD389300094E9E /* Sources */,
 				C61E329818CD389300094E9E /* Frameworks */,
@@ -185,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = ParkingApp;
+			name = "Where's The Batmobile?";
 			productName = ParkingApp;
-			productReference = C61E329B18CD389300094E9E /* ParkingApp.app */;
+			productReference = C61E329B18CD389300094E9E /* Where's The Batmobile?.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C61E32BB18CD389300094E9E /* ParkingAppTests */ = {
+		C61E32BB18CD389300094E9E /* Where's The Batmobile?Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C61E32D018CD389400094E9E /* Build configuration list for PBXNativeTarget "ParkingAppTests" */;
+			buildConfigurationList = C61E32D018CD389400094E9E /* Build configuration list for PBXNativeTarget "Where's The Batmobile?Tests" */;
 			buildPhases = (
 				C61E32B818CD389300094E9E /* Sources */,
 				C61E32B918CD389300094E9E /* Frameworks */,
@@ -203,9 +201,9 @@
 			dependencies = (
 				C61E32C218CD389300094E9E /* PBXTargetDependency */,
 			);
-			name = ParkingAppTests;
+			name = "Where's The Batmobile?Tests";
 			productName = ParkingAppTests;
-			productReference = C61E32BC18CD389300094E9E /* ParkingAppTests.xctest */;
+			productReference = C61E32BC18CD389300094E9E /* Where's The Batmobile?Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,12 +216,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Erin McGee";
 				TargetAttributes = {
+					C61E329A18CD389300094E9E = {
+						DevelopmentTeam = 7BKJYS6U5G;
+					};
 					C61E32BB18CD389300094E9E = {
 						TestTargetID = C61E329A18CD389300094E9E;
 					};
 				};
 			};
-			buildConfigurationList = C61E329618CD389300094E9E /* Build configuration list for PBXProject "ParkingApp" */;
+			buildConfigurationList = C61E329618CD389300094E9E /* Build configuration list for PBXProject "Where's The Batmobile?" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C61E329A18CD389300094E9E /* ParkingApp */,
-				C61E32BB18CD389300094E9E /* ParkingAppTests */,
+				C61E329A18CD389300094E9E /* Where's The Batmobile? */,
+				C61E32BB18CD389300094E9E /* Where's The Batmobile?Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,10 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A50AB019770A7500A9B59B /* batmobile.wav in Resources */,
 				C61E32B718CD389300094E9E /* Images.xcassets in Resources */,
 				C61E32A918CD389300094E9E /* InfoPlist.strings in Resources */,
 				C63D6E8518CF7DA300580AD3 /* batmobile.png in Resources */,
-				C63D6E7F18CF76A700580AD3 /* batmobile.wav in Resources */,
 				C61E32B218CD389300094E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +290,7 @@
 /* Begin PBXTargetDependency section */
 		C61E32C218CD389300094E9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C61E329A18CD389300094E9E /* ParkingApp */;
+			target = C61E329A18CD389300094E9E /* Where's The Batmobile? */;
 			targetProxy = C61E32C118CD389300094E9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,10 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParkingApp/ParkingApp-Prefix.pch";
-				INFOPLIST_FILE = "ParkingApp/ParkingApp-Info.plist";
+				GCC_PREFIX_HEADER = "ParkingApp/Where's The Batmobile?-Prefix.pch";
+				INFOPLIST_FILE = "ParkingApp/Where's The Batmobile?-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "97a5dc7d-6408-442b-87a5-594b80481af3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,10 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParkingApp/ParkingApp-Prefix.pch";
-				INFOPLIST_FILE = "ParkingApp/ParkingApp-Info.plist";
+				GCC_PREFIX_HEADER = "ParkingApp/Where's The Batmobile?-Prefix.pch";
+				INFOPLIST_FILE = "ParkingApp/Where's The Batmobile?-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "97a5dc7d-6408-442b-87a5-594b80481af3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -433,8 +442,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ParkingAppTests/ParkingAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ParkingAppTests/Where's The Batmobile?Tests-Info.plist";
+				PRODUCT_NAME = "Where's The Batmobile?Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -451,8 +460,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkingApp/ParkingApp-Prefix.pch";
-				INFOPLIST_FILE = "ParkingAppTests/ParkingAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ParkingAppTests/Where's The Batmobile?Tests-Info.plist";
+				PRODUCT_NAME = "Where's The Batmobile?Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -461,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C61E329618CD389300094E9E /* Build configuration list for PBXProject "ParkingApp" */ = {
+		C61E329618CD389300094E9E /* Build configuration list for PBXProject "Where's The Batmobile?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C61E32CB18CD389400094E9E /* Debug */,
@@ -470,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C61E32CD18CD389400094E9E /* Build configuration list for PBXNativeTarget "ParkingApp" */ = {
+		C61E32CD18CD389400094E9E /* Build configuration list for PBXNativeTarget "Where's The Batmobile?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C61E32CE18CD389400094E9E /* Debug */,
@@ -479,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C61E32D018CD389400094E9E /* Build configuration list for PBXNativeTarget "ParkingAppTests" */ = {
+		C61E32D018CD389400094E9E /* Build configuration list for PBXNativeTarget "Where's The Batmobile?Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C61E32D118CD389400094E9E /* Debug */,

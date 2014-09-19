@@ -35,6 +35,28 @@ CLLocationCoordinate2D currentLocation;
     self.steps.text=@"";
     self.distanceLabel.text=@"";
     self.mapView.delegate = self;
+    //self.locationManager.delegate = self;
+    self.locationManager = [[CLLocationManager alloc] init];
+    if ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]){
+        [self.locationManager requestAlwaysAuthorization];
+    }
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+    
+    self.locationManager.distanceFilter = kCLDistanceFilterNone; //Whenever we move
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [self.locationManager startUpdatingLocation];
+    
+    //View Area
+    MKCoordinateRegion region = { { 0.0, 0.0 }, { 0.0, 0.0 } };
+    region.center.latitude = self.locationManager.location.coordinate.latitude;
+    region.center.longitude = self.locationManager.location.coordinate.longitude;
+    region.span.longitudeDelta = 0.005f;
+    region.span.longitudeDelta = 0.005f;
+    [mapView setRegion:region animated:YES];
+    
 }
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
@@ -53,7 +75,7 @@ CLLocationCoordinate2D currentLocation;
     (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
     if (!pinView)
     {
-        if ([[annotation title] isEqualToString:@"I parked here!"])
+        if ([[annotation title] isEqualToString:@"The Batmobile is here!"])
         {
          MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
         
@@ -91,7 +113,7 @@ CLLocationCoordinate2D currentLocation;
         [self.mapView removeOverlay:routeRemoveId];
         MKPointAnnotation *point = [[MKPointAnnotation alloc] init];
         point.coordinate = currentLocation;
-        point.title = @"I parked here!";
+        point.title = @"The Batmobile is here!";
         parkingSpot=point.coordinate;
     [self.distanceTextLabel setHidden:YES];
     [self.directionsTextLabel setHidden:YES];
@@ -105,7 +127,7 @@ CLLocationCoordinate2D currentLocation;
     for (int i =0; i < [mapView.annotations count]; i++) {
         if ([[mapView.annotations objectAtIndex:i] isKindOfClass:[MKPointAnnotation class]])
         {
-            if(![[[mapView.annotations objectAtIndex:i] title] isEqualToString:@"I parked here!"])
+            if(![[[mapView.annotations objectAtIndex:i] title] isEqualToString:@"The Batmobile is here!"])
             {
                 [mapView removeAnnotation:[mapView.annotations objectAtIndex:i]];
             }
